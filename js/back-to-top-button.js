@@ -21,7 +21,7 @@
 
   function scroller (timestamp) {
     startTime || (startTime = timestamp);
-    timestamp = (timestamp - startTime) / +scrollTime;
+    timestamp = (timestamp - startTime) / +scrollTime; // Convert to time fraction
 
     if (!window.pageYOffset || timestamp >= 1) {
       window.scrollTo(0, 0);
@@ -29,11 +29,13 @@
       return;
     }
 
-    window.scrollTo(0, scroll * (1 - 0.5 * (1 - Math.cos(Math.PI * timestamp))));
+    window.scrollTo(0, scroll * (1 - ease(timestamp)));
     requestAnimationFrame(scroller);
   }
-
   function isNumeric (n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
+  }
+  function ease (k) {
+      return 0.5 * (1 - Math.cos(Math.PI * k));
   }
 })();
