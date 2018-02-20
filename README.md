@@ -18,7 +18,7 @@ Sticky button that smoothly scrolls page back to top.
 - Add more default styles to choose from.
 
 ## Usage
-0. Look at example here - https://yesasha.github.io/back-to-top-button/
+0. Look at example index.html or here - https://yesasha.github.io/back-to-top-button/
 1. Connect css `<link rel="stylesheet" type="text/css" href="css/style.css">`
 2. Connect js `<script src="js/back-to-top-button.min.js"></script>`
 3. Create button, specifying the time `<button data-backtotopbutton-time="400">^</button>`
