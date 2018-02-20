@@ -1,4 +1,4 @@
-[data-back-to-top-button-time] {
+[data-backtotopbutton-time] {
   position: fixed;
   display: block;
   z-index: 99;
@@ -30,6 +30,6 @@
   user-select: none;
 }
 
-[data-back-to-top-button-time]:hover {
+[data-backtotopbutton-time]:hover {
   background-color: #ccc;
 }
