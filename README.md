@@ -16,6 +16,7 @@ Sticky button that smoothly scrolls page back to top.
 - Add more configurable options, like different easings.
 - Make button appear and disappear when needed (For example, onscroll).
 - Add more default styles to choose from.
+- Fix current default styles to make it more stylish if users request.
 
 ## Usage
 0. Look at example index.html or here - https://yesasha.github.io/back-to-top-button/
