@@ -10,7 +10,7 @@
     // Scan for parent "button" element since it can contain other child elements, like svg in our case
     var target = event.target;
     do {
-      scrollTime = target.getAttribute('data-scrollupbutton-time');
+      scrollTime = target.getAttribute('data-back-to-top-button-time');
       if (isNumeric(scrollTime)) {
         scroll = window.pageYOffset;
         requestAnimationFrame(scroller);
