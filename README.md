@@ -22,3 +22,4 @@ Sticky button that smoothly scrolls page back to top.
 1. Connect css `<link rel="stylesheet" type="text/css" href="css/style.css">`
 2. Connect js `<script src="js/back-to-top-button.min.js"></script>`
 3. Create button, specifying the time `<button data-backtotopbutton-time="400">^</button>`
+4. Create more buttons and/or style them at your taste
