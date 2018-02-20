@@ -1,0 +1,35 @@
+[data-back-to-top-button-time] {
+  position: fixed;
+  display: block;
+  z-index: 99;
+  width: 72px;
+  height: 72px;
+  bottom: 32px;
+  right: 32px;
+  border: none;
+  outline: 0;
+  font-size: 24px;
+  line-height: 1;
+  padding: 0.5em 1em;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.03);
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 50%;
+
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+[data-back-to-top-button-time]:hover {
+  background-color: #ccc;
+}
