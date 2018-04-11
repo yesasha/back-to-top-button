@@ -6,7 +6,7 @@ Sticky button that smoothly scrolls page back to top.
 - No external dependencies, no jquery.
 - All modern browsers support.
 - ~350 bytes(!) compressed javascript!
-- No need to write any javascript code, just connect the script to your page, and insert a &lt;button&gt;&lt;/button&gt; to your page.
+- No need to write any javascript code, just connect the script to your page, and insert a `<button>^</button>` to your page.
 - Position and style your button with css. Some default css provided.
 - May have any number of buttons per page, that will be detected automatically. No extra code edits!
 - Configurable scroll time per button.
@@ -20,7 +20,7 @@ Sticky button that smoothly scrolls page back to top.
 
 ## Usage
 0. Look at example index.html or here - https://yesasha.github.io/back-to-top-button/
-1. Connect css `<link rel="stylesheet" type="text/css" href="css/style.css">`
+1. Connect css `<link rel="stylesheet" type="text/css" href="css/back-to-top-button.css">`
 2. Connect js `<script src="js/back-to-top-button.min.js"></script>`
 3. Create button, specifying the time `<button data-backtotopbutton-time="400">^</button>`
 4. Create more buttons and/or style them at your taste
